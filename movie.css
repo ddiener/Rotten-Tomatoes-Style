@@ -1,0 +1,110 @@
+body
+{
+    background-image: url(moviebg.png); 
+    font-family: Tahoma;
+    font-size: 8pt;
+    margin: 0px;
+    padding: 0px;
+}
+#mainContent
+{
+	border-radius: 20px;
+	overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-color: gray;
+    border-width: 4px;
+    width: 800px;
+}
+#border
+{
+    background-image: url(rancidbannerbg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: auto;
+    position: fixed;
+    bottom: 745;
+    right: 0;
+    width: 100%;
+}
+h1
+{
+	margin-top: 0%;
+	padding-top: 72px;
+	font-size: 24pt;
+    font-family: sans-serif, Verdana, Tahoma;
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+}
+#mainLeft
+{
+    width: 550px;
+}
+#rottenScoreBackground
+{
+    background-image: url(rottenlargebg.png);
+    height: 83px;
+}
+.rottenScore
+{
+	float: left;
+	font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+.review
+{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px; 
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px;
+}
+.reviewer
+{
+    font-style: italic;
+    padding-bottom: 20pt;
+    padding-left: 10px;
+}
+#rightSection
+{
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+	font-family: Arial, sans-serif;
+}
+#movieInformation
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.column
+{
+    float: left;
+    width: 50%;
+}
+#footer
+{
+	clear: both;
+	background: #A2B964;
+	text-align: center;
+	padding: 1px;
+}
+
+span
+{
+	color: white;
+	font-size: 8pt;
+}
+
+dt
+{
+	font-weight: bold;
+	padding-top: 10px;
+}
